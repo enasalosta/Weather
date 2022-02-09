@@ -48,7 +48,7 @@
             android:layout_height="wrap_content"
             android:layout_marginEnd="20dp"
             android:layout_marginBottom="20dp"
-            android:backgroundTint="#FF9800"
+            android:backgroundTint="#FEAA0C"
             android:clickable="true"
             android:src="@drawable/ic_baseline_add_alert_24"
             app:layout_constraintBottom_toBottomOf="parent"

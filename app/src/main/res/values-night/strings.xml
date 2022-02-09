@@ -23,4 +23,10 @@
     <string name="humidity">Humidity</string>
     <string name="airpressure">Air pressure</string>
     <string name="clouds">Clouds</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="type">Type</string>
+    <string name="alarm">Alarm</string>
+    <string name="notification">Notification</string>
+    <string name="save">Save</string>
 </resources>

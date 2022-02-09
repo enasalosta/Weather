@@ -12,19 +12,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Weather">
         <activity
+            android:name=".view.Alert.AlertActivity"
+            android:exported="false" />
+        <activity
             android:name=".view.Favorite.FavouriteActivity"
             android:exported="false" />
         <activity
             android:name=".view.Settings.SettingActivity"
             android:exported="false" />
         <activity
-            android:name=".view.Alert.AlertActivity"
+            android:name=".view.Splash.SplashActivity"
             android:exported="false" />
         <activity
             android:name=".view.Home.HomeActivity"
             android:exported="false" />
         <activity
-            android:name=".view.Splash.SplashActivity"
+            android:name=".view.Alert.New_Alert"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
