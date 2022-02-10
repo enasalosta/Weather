@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Weather">
         <activity
+            android:name=".view.Favorite.NewFavorite"
+            android:exported="false" />
+        <activity
             android:name=".view.Alert.AlertActivity"
             android:exported="false" />
         <activity
