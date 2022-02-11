@@ -5,11 +5,13 @@
     android:id="@+id/drawerLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".view.Home.HomeActivity">
+    tools:context=".view.Home.HomeActivity"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
 
 
     <com.google.android.material.navigation.NavigationView
-        android:id="@+id/vani_view"
+        android:id="@+id/nav_view"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="start"
@@ -34,7 +36,7 @@
             android:background="#1572A1"
             app:layout_constraintTop_toTopOf="parent"
             app:title="@string/home"
-            app:titleMarginStart="150dp"
+            app:titleMarginStart="105dp"
             app:titleTextColor="#FFFFFF" />
 
         <androidx.core.widget.NestedScrollView

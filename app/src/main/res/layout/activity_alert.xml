@@ -2,11 +2,13 @@
 <androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".view.Alert.AlertActivity">
+
     <com.google.android.material.navigation.NavigationView
-        android:id="@+id/vani_view"
+        android:id="@+id/nav_view"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="start"
@@ -31,21 +33,22 @@
             android:background="#1572A1"
             app:layout_constraintTop_toTopOf="parent"
             app:title="@string/alert"
-            app:titleMarginStart="150dp"
+            app:titleMarginStart="105dp"
             app:titleTextColor="#FFFFFF" />
+
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/alertRecyclerView"
             android:layout_width="match_parent"
             android:layout_height="0dp"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/toolbar"
-            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-            tools:listitem="@layout/alert_report"/>
+            tools:listitem="@layout/alert_report" />
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:id="@+id/addFloatingButton"
+            android:id="@+id/addAlert"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="20dp"

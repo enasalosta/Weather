@@ -24,13 +24,13 @@
             android:name=".view.Settings.SettingActivity"
             android:exported="false" />
         <activity
-            android:name=".view.Splash.SplashActivity"
+            android:name=".view.Alert.New_Alert"
             android:exported="false" />
         <activity
             android:name=".view.Home.HomeActivity"
             android:exported="false" />
         <activity
-            android:name=".view.Alert.New_Alert"
+            android:name=".view.Splash.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

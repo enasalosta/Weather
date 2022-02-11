@@ -11,7 +11,7 @@ class SplashActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash)
-        val splashTimeOut = 5000
+        val splashTimeOut = 2000
         val intent = Intent(this@SplashActivity, HomeActivity::class.java)
         Handler().postDelayed({
             startActivity(intent)

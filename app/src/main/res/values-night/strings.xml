@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="weather">Weather</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+
+
+
     <string name="home">Home</string>
     <string name="favourite">Favorite</string>
     <string name="alert">Alert</string>
